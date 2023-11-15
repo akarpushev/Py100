@@ -9,7 +9,6 @@ json_str = '{"name": "John", "age": 25, "city": "New York"}'  # Так буде�
 with open('output.json', 'w') as f:
     f.write(json_str + '\n')
 
-
 csv_data = [
     ['John', '25', 'New York'],
     ['Alice', '30', 'London'],

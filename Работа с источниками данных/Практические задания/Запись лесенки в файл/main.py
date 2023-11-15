@@ -4,8 +4,13 @@ INPUT_FILE = "input.txt"
 OUTPUT_FILE = "output.txt"
 
 
+
 def task():
-    ...  # TODO построчно записать лесенку в файл
+    with open(OUTPUT_FILE, 'w') as f:
+        for i in range(1, 11):
+            f.write(f"{'*' * i}\n")
+
+    # TODO построчно записать лесенку в файл
 
 
 if __name__ == '__main__':

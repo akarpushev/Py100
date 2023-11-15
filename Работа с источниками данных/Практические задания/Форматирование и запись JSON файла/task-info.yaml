@@ -3,19 +3,19 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 93
+  - offset: 273
     length: 68
     placeholder_text: "...  # TODO Десериализуйте содержимое файла из переменной INPUT_FILE"
     initial_state:
       length: 68
       offset: 93
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       with open(INPUT_FILE, encoding="utf-8") as f:
               json_data = json.load(f)
-  - offset: 167
+  - offset: 347
     length: 67
     placeholder_text: "...  # TODO Сериализуйте содержимое в файл из переменной INPUT_FILE"
     initial_state:

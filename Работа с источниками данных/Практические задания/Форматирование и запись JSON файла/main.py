@@ -5,6 +5,13 @@ OUTPUT_FILE = "output.json"
 
 
 def task() -> None:
+    with open(INPUT_FILE, 'r') as f:
+        data = json.load(f)
+        result = [item["score"] * item["weight"] for item in data]
+        return round(sum(result), 3)
+
+
+        
     ...  # TODO Десериализуйте содержимое файла из переменной INPUT_FILE
 
     ...  # TODO Сериализуйте содержимое в файл из переменной INPUT_FILE

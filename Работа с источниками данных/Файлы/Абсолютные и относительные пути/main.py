@@ -1,5 +1,8 @@
 import os.path
 
+import shutil
+#shutil.copyfile('one.txt, 'two.txt')
+
 # Получение текущего рабочего каталога
 current_dir = os.getcwd()
 print("Текущий рабочий каталог:", current_dir)
