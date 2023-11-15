@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 273
+  - offset: 142
     length: 68
     placeholder_text: "...  # TODO Десериализуйте содержимое файла из переменной INPUT_FILE"
     initial_state:
@@ -15,7 +15,7 @@ files:
     encrypted_possible_answer: |-
       with open(INPUT_FILE, encoding="utf-8") as f:
               json_data = json.load(f)
-  - offset: 347
+  - offset: 216
     length: 67
     placeholder_text: "...  # TODO Сериализуйте содержимое в файл из переменной INPUT_FILE"
     initial_state:

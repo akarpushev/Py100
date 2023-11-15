@@ -6,9 +6,7 @@ OUTPUT_FILE = "output.json"
 
 def task() -> None:
     with open(INPUT_FILE, 'r') as f:
-        data = json.load(f)
-        result = [item["score"] * item["weight"] for item in data]
-        return round(sum(result), 3)
+
 
 
         
