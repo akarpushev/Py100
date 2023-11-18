@@ -64,11 +64,7 @@ def func1(b):
 
 func1(result)
 
-#for i in range(len(result))
-    #result.items()
 
-# l = len(text)
-# result2 = func1(result, len(text))
 
 
 # TODO Распечатайте в столбик букву и её частоту в тексте
